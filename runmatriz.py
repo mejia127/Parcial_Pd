@@ -56,7 +56,7 @@ def main():
                 hilo9.join()
 
             if a == 10:
-                hilo10 = threading.Thread(target=funciones_hilos.sumamatriz(), args=())
+                hilo10 = threading.Thread(target=funciones_hilos.restamatriz(), args=())
                 hilo10.start()
                 hilo10.join()
 
@@ -66,17 +66,6 @@ def main():
             else:
                 b = raw_input("Presione enter para volver al menu")
                 M = False
-
-
-
-
-
-
-
-
-
-
-
 
 
 
